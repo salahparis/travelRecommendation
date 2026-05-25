@@ -99,7 +99,7 @@ nav button[type="reset"] {
 }
 
 .social-media {
-  position: fixed;
+  position: absolute;
   left: 20px;
   top: 50%;
   transform: translateY(-50%);
@@ -107,7 +107,7 @@ nav button[type="reset"] {
   flex-direction: column;
   gap: 0.8rem;
   z-index: 100;
-  padding: 1rem;
+  padding: 0.5rem;
   border: 2px solid #333;
   border-radius: 0.5rem;
   background: #f5f5f5;
